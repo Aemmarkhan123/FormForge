@@ -1,0 +1,23 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Dependencies and builds
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Local database
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# System files
+.DS_Store
